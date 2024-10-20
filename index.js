@@ -52,6 +52,7 @@ Prompt.prototype.ask = function(cb) {
   }
 
   this.only('line', this.onSubmit.bind(this));
+  this.only('escape', this.onSubmit.bind(this));
   this.only('down', this.createChoices.bind(this, ''));
   this.only('keypress', this.onKeypress.bind(this));
 
@@ -105,9 +106,15 @@ Prompt.prototype.createChoices = function(line) {
 
 Prompt.prototype.onSubmit = function(line) {
   if (this.createChoices(line)) return;
+
   var choice = this.currentChoices.getChoice(this.selected);
   this.only();
-  this.submitAnswer(choice.value);
+
+  if (typeof line === 'object') {
+    this.submitAnswer('');
+  } else {
+    this.submitAnswer(choice.value);
+  }
 };
 
 Prompt.prototype.search = function(searchTerm) {
