@@ -169,6 +169,10 @@ Prompt.prototype.onKeypress = function(keypress) {
     
   keypress = keypress.key.name;
 
+  if (keypress === 'escape') {
+    return;
+  }
+
   // Let onSubmit handle return key press
   if (keypress === 'return') {
     return;
