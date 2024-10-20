@@ -1,6 +1,6 @@
 # prompt-autocompletion 
 
-Prompt that autocompletes as you type. This project is a forked version from prompt-autocompletion of Joh Schlinkert. This version fix some bugs in KeyDown event that cause the Arrow Key and Enter Key not working.
+Prompt that autocompletes as you type. This project is a forked version from prompt-autocompletion of [Jon Schlinkert](https://github.com/jonschlinkert). This version fix some bugs in KeyDown event that cause the Arrow Key and Enter Key not working.
 
 ## Installation
 
