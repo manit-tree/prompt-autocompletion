@@ -10,6 +10,4 @@ $ npm install manit-tree/prompt-autocompletion
 
 ## Credit
 
-[https://www.npmjs.com/package/prompt-autocompletion](https://www.npmjs.com/package/prompt-autocompletion)
-
-By [Jon Schilinkert](https://github.com/jonschlinkert)
+[https://www.npmjs.com/package/prompt-autocompletion](https://www.npmjs.com/package/prompt-autocompletion) By [Jon Schilinkert](https://github.com/jonschlinkert)
