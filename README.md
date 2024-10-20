@@ -8,6 +8,10 @@ Prompt that autocompletes as you type. This project is a forked version from pro
 $ npm install manit-tree/prompt-autocompletion
 ```
 
+## How to use
+
+Please follow documentation from original project [https://www.npmjs.com/package/prompt-autocompletion](https://www.npmjs.com/package/prompt-autocompletion) by [Jon Schilinkert](https://github.com/jonschlinkert) 
+
 ## Credit
 
 [https://www.npmjs.com/package/prompt-autocompletion](https://www.npmjs.com/package/prompt-autocompletion) By [Jon Schilinkert](https://github.com/jonschlinkert)
